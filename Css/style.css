@@ -15,7 +15,9 @@
     align-items: center;
     background-color: #fff;
 }
-
+.navbar{
+    background-color: red;
+}
 .navbar .navbar-logo {
     display: flex;
     align-items: center;
