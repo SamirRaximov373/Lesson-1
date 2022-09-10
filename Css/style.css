@@ -129,6 +129,7 @@
     justify-content: center;
     align-items: center;
     gap: 10%;
+    position: relative;
 }
 
 .conteiner .box-onet {
@@ -183,5 +184,84 @@
 }
 
 .conteiner .box-one .box-oneimg a {
+    width: 130px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
     position: absolute;
+    left: 95%;
+    bottom: 15%;
+    color: #000;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.conteiner .box-one .box-oneimg a i {
+    background-color: blue;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.conteiner .box-two {
+    width: 100vw;
+    height: 80vh;
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.conteiner .box-two .box2img1 {
+    width: 27%;
+    height: 70%;
+}
+
+.conteiner .box-two .box2img1 img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.conteiner .box-two .box2img1 h1 {
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.conteiner .box-two .box2img1 p {
+    padding-right: 90px;
+    font-weight: 100;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.conteiner .box-two .box2img1 button {
+    width: 130px;
+    height: 45px;
+    border-color: #5C8692;
+    font-size: 12px;
+}
+
+.conteiner .box-two .box2img1:nth-child(2) p {
+    padding-right: 20px;
+}
+
+.conteiner .box-three {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBF3F5;
+    padding: 0 7%;
+}
+
+.conteiner .box-three h1 {
+    font-size: 14px;
+    font-weight: 100;
+    color: #5C8692;
+    padding-top: 10%;
 }
