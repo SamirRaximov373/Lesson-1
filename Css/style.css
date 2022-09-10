@@ -15,14 +15,20 @@
     align-items: center;
     background-color: #fff;
 }
-.navbar{
-    background-color: red;
-}
+
 .navbar .navbar-logo {
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-left: 20px;
     gap: 25px;
+}
+
+.navbar .navbar-logo .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .navbar .navbar-logo .logo a {
@@ -36,6 +42,10 @@
 }
 
 .navbar .navbar-logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
     font-size: 17px;
     color: #000;
 }
@@ -69,22 +79,25 @@
     transition: all 0.2s;
 }
 
-.navbar .navbar-menu .icons i:first-child {
+.navbar .navbar-menu .icons i:first-child:hover {
     color: #00ff;
+    font-size: 27px;
 }
 
-.navbar .navbar-menu .icons i:nth-child(2) {
+.navbar .navbar-menu .icons i:nth-child(2):hover {
     color: aqua;
+    font-size: 27px;
 }
 
-.navbar .navbar-menu .icons i:last-child {
+.navbar .navbar-menu .icons i:last-child:hover {
     color: red;
+    font-size: 27px;
 }
 
-.navbar .navbar-menu i {
-    font-size: 25px;
+.navbar .navbar-menu .icons i {
+    font-size: 26px;
     margin-right: 15px;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 
 .navbar .navbar-menu button {
@@ -97,5 +110,78 @@
     border-color: #7A9CA5;
     margin-right: 10px;
     color: #fff;
+    font-size: 17px;
+    gap: 10px;
+    transition: all 0.25s;
 }
 
+.navbar .navbar-menu button:hover {
+    background-color: #fff;
+    color: #7A9CA5;
+    font-size: 16px;
+}
+
+.conteiner .box-one {
+    width: 100vw;
+    height: 90vh;
+    background-color: #EBF3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+
+.conteiner .box-onet {
+    width: 40%;
+    height: 100%;
+}
+
+.conteiner .box-one h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #5C8692;
+    margin-top: 30%;
+}
+
+.conteiner .box-one h2 {
+    font-size: 50px;
+    padding-right: 30%;
+    font-weight: 400;
+}
+
+.conteiner .box-one p {
+    font-size: 17px;
+    color: #555;
+    margin-top: 15px;
+    padding-right: 33%;
+}
+
+.conteiner .box-one button {
+    width: 38%;
+    height: 8%;
+    font-size: 13px;
+    background-color: #5C8692;
+    border-color: #5C8692;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.conteiner .box-one .box-oneimg {
+    width: 35%;
+    height: 70%;
+    border: 10px solid #5C8692;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner .box-one .box-oneimg img {
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    right: 10%;
+}
+
+.conteiner .box-one .box-oneimg a {
+    position: absolute;
+}
