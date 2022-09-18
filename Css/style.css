@@ -211,7 +211,6 @@ body {
 }
 
 .conteiner .box-two {
-    /* width: 100vw; */
     height: 80vh;
     background-color: #E5E5E5;
     display: flex;
@@ -254,7 +253,6 @@ body {
 }
 
 .conteiner .box-three {
-    /* width: 100vw; */
     height: 90vh;
     display: flex;
     justify-content: space-between;
@@ -270,16 +268,16 @@ body {
     padding-right: 15%;
 }
 
-.conteiner .box-three .boxthreet h1 {
+.conteiner .box-three .boxthreet span {
     font-weight: 100;
     font-size: 13px;
     color: #5C8692;
-    margin-bottom: 10px;
 }
 
 .conteiner .box-three .boxthreet h2 {
     font-weight: 300;
     font-size: 38px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -333,7 +331,6 @@ body {
 }
 
 .conteiner .box-four {
-    /* width: 100%; */
     height: 200vh;
     padding: 5% 7%;
     margin-bottom: 6%;
@@ -356,7 +353,6 @@ body {
 
 .conteiner .box-four .boximg1 img {
     width: 50%;
-    /* height: 90vh; */
 }
 
 .conteiner .box-four .boximg1 table tr td {
@@ -640,6 +636,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #EBF3F5;
 }
 
 .conteiner .box-seven .right {
@@ -705,4 +702,289 @@ body {
 #contact {
     width: 495px;
     background-color: #5C8692;
+}
+
+.conteiner .box-seven .left {
+    width: 50%;
+}
+
+.conteiner .box-seven .left span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #5C8692;
+}
+
+.conteiner .box-seven .left h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 58px;  
+    letter-spacing: 0.45px;
+    color: #141414;
+    padding-right: 35%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.conteiner .box-seven .left p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    color: #555555;
+    padding-right: 28%;
+}
+
+.conteiner .box-seven .left .getflat {
+    width: 496px;
+    height: 173px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 46px;
+    border: 2px solid #5C8692;
+}
+
+.conteiner .box-seven .left .getflat .contact {
+    width: 65%;
+    height: 100%;
+    border-right: 2px solid #5C8692;
+    background-color: #fff;
+}
+
+.conteiner .box-seven .left .getflat .contact .mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    position: relative;
+}
+
+.conteiner .box-seven .left .getflat .contact .mail i {
+    font-size: 40px;
+    color: #5C8692;
+    position: absolute;
+    left: 17%;
+    bottom: 24%;
+}
+
+.conteiner .box-seven .left .getflat .contact .mail h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #141414;
+    margin-left: 100px;
+}
+
+.conteiner .box-seven .left .getflat .contact .call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+}
+
+.conteiner .box-seven .left .getflat .contact .call i {
+    font-size: 40px;
+    color: #5C8692;
+    position: absolute;
+    left: 17%;
+}
+
+.conteiner .box-seven .left .getflat .contact .call h5 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: #141414;
+    margin-left: 40px;
+}
+
+.conteiner .box-seven .left .getflat .discount {
+    width: 35%;
+    height: 100%;
+    padding: 25px 30px;
+    background-color: #1E2C30;
+}
+
+.conteiner .box-seven .left .getflat .discount h4 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.conteiner .box-seven .left .getflat .discount h1 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0.78px;
+    color: #FFFFFF;
+}
+
+.conteiner .box-eight {
+    min-height: 1029px;
+    padding: 7%;
+}
+
+.conteiner .box-eight .blogs_img {
+    height: 597px;
+    float: left;
+    margin-right: 20px;
+}
+
+.conteiner .box-eight .blogs_img img {
+    width: 387px;
+    height: 342px;
+}
+
+.conteiner .box-eight .blogs_text {
+    width: 387px;
+    height: 255px;
+    background-color: #EBF3F5;
+    padding: 30px;
+}
+
+.conteiner .box-eight .blogs_text .span {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner .box-eight .blogs_text .span span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0.78px;
+    text-transform: uppercase;
+    color: #5C8692;
+    margin-bottom: 15px;
+}
+
+.conteiner .box-eight .blogs_text h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0.44px;
+    color: #141414;
+    margin-bottom: 15px;
+}
+
+.conteiner .box-eight .blogs_text p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.36px;
+    color: #555555;
+}
+
+.conteiner .box-eight button {
+    width: 230px;
+    height: 57px;
+    border: 2px solid #5C8692;
+    background-color: #fff;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    color: #141414;
+    margin-left: 39%;
+    margin-top: 15px;
+}
+
+.conteiner .footer .top {
+    height: 175.66px;
+    background-color: #1E2C30;
+    padding: 0 120px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #fff;
+}
+
+.conteiner .footer .top .logo {
+    display: flex;
+    align-items: center;
+    gap: 20.85px;
+}
+
+.conteiner .footer .top .logo i {
+    font-size: 65px;
+    color: #5C8692;
+}
+
+.conteiner .footer .top .logo a {
+    font-size: 45px;
+    color: #fff;
+}
+
+.conteiner .footer .top .massages {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.conteiner .footer .top .massages i {
+    padding: 18px;
+    border: 2px solid #5C8692;
+    font-size: 23px;
+    color: #fff;
+}
+
+.conteiner .footer .center {
+    height: 356.34px;
+    background-color: #1E2C30;
+    display: flex;
+    justify-content: center;
+    padding: 60px 120px;
+    gap: 120px;
+}
+
+.conteiner .footer .center .item h4 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 31px;
+    letter-spacing: 0.352px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.conteiner .footer .center .item ul li {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 29px;
+    letter-spacing: 0.17px;
+    color: #FFFFFF;
+    margin-bottom: 9px;
 }
