@@ -419,7 +419,6 @@ body {
     text-align: center;
     letter-spacing: 0.45px;
     color: #141414;
-    margin-bottom: 70px;
 }
 
 .conteiner .box-four .boximg1 td button {
@@ -987,4 +986,23 @@ body {
     letter-spacing: 0.17px;
     color: #FFFFFF;
     margin-bottom: 9px;
+}
+
+.conteiner .footer .bottom {
+    height: 62px;
+    background-color: #111E22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner .footer .bottom span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #FFFFFF;
 }
